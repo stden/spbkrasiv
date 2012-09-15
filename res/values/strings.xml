@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">spbkrasiv</string>
+    <string name="logo">ЛОГО</string>
+    <string name="login">Логин:</string>
+    <string name="password">Пароль:</string>
+    <string name="enter">Вход</string>
+    <string name="information">Информация</string>
 </resources>

@@ -4,10 +4,61 @@
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
         >
-    <TextView
+    <ImageView android:contentDescription="@string/logo"
+               android:src="@drawable/logo"
+               android:layout_width="320dp"
+               android:layout_height="200dp"
+            >
+    </ImageView>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="30dp"
+                  android:layout_margin="20dp"
+            >
+        <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/login"
+                />
+        <EditText android:id="@+id/login"
+                  android:inputType="text"
+                  android:layout_width="120dp"
+                  android:layout_height="30dp"
+                  android:background="@color/edit"
+                >
+        </EditText>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent"
+                  android:layout_height="50dp"
+                  android:layout_margin="20dp"
+            >
+        <TextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                />
+        <EditText android:id="@+id/password"
+                  android:inputType="text"
+                  android:layout_width="120dp"
+                  android:layout_height="30dp"
+                  android:background="@color/edit"
+                >
+        </EditText>
+
+    </LinearLayout>
+
+    <Button android:id="@+id/enter_button"
+            android:layout_height="40dp"
             android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Hello World, MainActivity"
-            />
+            android:text="@string/enter">
+    </Button>
+
+    <Button android:id="@+id/information_button"
+            android:layout_height="40dp"
+            android:layout_width="fill_parent"
+            android:text="@string/information">
+    </Button>
+
 </LinearLayout>
 
